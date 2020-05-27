@@ -7,6 +7,57 @@
   pointer-events: none;
 }
 
+.btnFormat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: darkslategray;
+  height: 100vh;
+}
+
+.format {
+  display: flex;
+  /* background-image: url("https://www.roughguides.com/wp-content/uploads/2018/06/moscow-cathedral-1680x1050.jpg"); */
+}
+
+.btn {
+  margin-top: 30px;
+}
+
+.title {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 20pt;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 35pt;
+}
+
+.weatherFormat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  width: 50%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.body {
+  background-image: url("https://www.roughguides.com/wp-content/uploads/2018/06/moscow-cathedral-1680x1050.jpg");
+  overflow: hidden;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
